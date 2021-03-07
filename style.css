@@ -1,0 +1,40 @@
+.jumbotron {
+    background-color:rgb(173, 160, 155);
+}
+
+body {
+    background-color:rgb(173, 160, 155);
+}
+
+.america {
+    background-image:url("https://cdn.pixabay.com/photo/2012/04/10/16/22/united-26177_1280.png");
+    background-size:cover;
+    
+}
+
+.france {
+    background-image:url("https://cdn.pixabay.com/photo/2012/04/11/15/19/france-28463_1280.png");
+    background-size:cover;
+    
+}
+p {
+    color:black;
+    font-size:18px;
+}
+
+.item {
+    height:600px;
+}
+.img-circle{
+    height:600px;
+    max-width:600px;
+}
+
+#img {
+    height:220px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+}
