@@ -1,3 +1,11 @@
+.carousel .carousel-indicators li {
+    background-color: #fff;
+    background-color: rgba(70, 70, 70, 0.25);
+  }
+  
+  .carousel .carousel-indicators .active {
+    background-color: #444;
+  }
 .jumbotron {
     background-color:rgb(173, 160, 155);
 }
@@ -16,6 +24,12 @@ body {
     background-image:url("https://cdn.pixabay.com/photo/2012/04/11/15/19/france-28463_1280.png");
     background-size:cover;
     
+}
+
+.canada {
+    background-image:url("https://cdn.pixabay.com/photo/2012/04/10/23/27/canada-27003_1280.png");
+    background-size:cover;
+    background-position: 100%;
 }
 p {
     color:black;
@@ -37,4 +51,8 @@ p {
 footer {
     background-color:black;
     color:white;
+}
+
+nav {
+    font-size: large;
 }
