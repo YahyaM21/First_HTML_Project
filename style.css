@@ -31,6 +31,26 @@ body {
     background-size:cover;
     background-position: 100%;
 }
+.mexico {
+    background-image:url("https://cdn.pixabay.com/photo/2012/04/10/23/24/mexico-26989_1280.png");
+    background-size:cover;
+    background-position: 100%;
+
+}
+.bahamas {
+    background-image:url("https://cdn.pixabay.com/photo/2013/07/13/14/14/bahamas-162236_1280.png");
+    background-size:contain;
+    background-size: 100% 100%;
+}
+
+
+.costa_rica {
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/12/16/23/flag-1040572__480.png");
+    background-size:contain;
+    background-size: 100% 99%;
+
+}
+
 p {
     color:black;
     font-size:18px;
