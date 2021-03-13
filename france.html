@@ -13,7 +13,7 @@
         <!-- Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
-        <title>Mexico</title>
+        <title>France</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
@@ -28,21 +28,31 @@
                 <ul class="nav navbar-nav ">
                   <li ><a href="index.html">Home</a></li>
 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="NorthAmerica.html " >North America
                         <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu">
                         <li><a href="america.html">America</a></li>
                         <li><a href="canada.html">Canada</a></li>
-                        <li class="active"><a href="mexico.html">Mexico</a></li>
+                        <li><a href="mexico.html">Mexico</a></li>
                         <li><a href="bahamas.html">Bahamas</a></li>
                         <li><a href="costa_rica.html">Costa Rica</a></li>
 
 
                       </ul>
                     </li>
-                    
+                    <li class="dropdown active">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="Europe.html">Europe 
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li class="active"><a href="France.html">France</a></li>
+                        <li><a href="spain.html">Spain</a></li>
+
+                        
+                      </ul>
+                    </li>
 
 
                 </ul>
@@ -52,20 +62,20 @@
             </div>
         </nav>
         <!-- Nav bar ends -->
-        <div class="jumbotron text-center mexico">
-            <h1>Mexico</h1>
-        </div>
-               <div class="container">
+        <div class="jumbotron text-center france">
+            <h1>France</h1>
+        </div> 
+        <div class="container">
             <div class="page-header">
-                <h1>Top 3 Attractions</h1>
+                <h1>Top Attractions</h1>
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <h3>Chichen Itza</h3>
+                    <h3>Eiffel Tower</h3>
                     <!-- Create a thumbnail link out of the image -->
                     <div class="thumbnail">
-                         <img id="img" src="https://cdn.pixabay.com/photo/2015/12/15/09/19/pyramid-1093924_1280.jpg"
-                            alt="Chichen Itza ">
+                         <img id="img" src="https://d3vonci41uckcv.cloudfront.net/old-images/original/780ef510-447b-48c1-8a5f-e721701bb293.1.jpg"
+                            alt="Manuel Antonio National Park ">
                         <!-- Class btn-block makes the button act like 
                             its own block, rather than inline -->
                         <a href="#feat-1" class="btn btn-info btn-block">
@@ -75,11 +85,11 @@
 
                 </div>
                 <div class="col-sm-4">
-                    <h3>Tulum</h3>
+                    <h3>Arenal Volcano</h3>
                     <!-- Use thumbnail in div to get the outline -->
                     <div class="thumbnail">
-                         <img id="img" src="https://cdn.pixabay.com/photo/2017/01/24/23/24/tulum-2006701_1280.jpg"
-                            alt="Tulum">
+                         <img id="img" src="https://www.govisitcostarica.com/images/photos/mob-arenal-volcano-smoking.jpg"
+                            alt="Arenal Volcano">
                         <!-- Class btn-block makes the button act like 
                             its own block, rather than inline -->
                         <a href="#feat-2" class="btn btn-info btn-block">
@@ -88,11 +98,11 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <h3>Mexico City</h3>
+                    <h3>La Paz Waterfall Gardens</h3>
                     <!-- Only outline the image with thumbnail -->
                     <div class="thumbnail">
-                         <img id="img" src="https://cdn.pixabay.com/photo/2014/10/15/18/25/guanajuato-490146_1280.jpg"
-                            alt="Mexico City">
+                         <img id="img" src="http://rentacarcostarica.com/portal/wp-content/uploads/2016/04/Butterfly-Observatory-at-La-Paz-Waterfall-Gardens-750x563.jpg"
+                            alt="La Paz Waterfall Gardens">
                         <!-- Class btn-block makes the button act like 
                             its own block, rather than inline -->
                         <a href="#feat-3" class="btn btn-info btn-block">
@@ -103,79 +113,81 @@
                 </div>
             </div>
             <br>
-            <hr>
 
+            <hr>
             <div>
                 <h3>Country Summary </h3>
                     <ul>
-                        <li>Became a country: September 16, 1810</li>
-                        <li>Current President: Andrés Manuel López Obrador </li>
+                        <li>Became a country: September 15, 1861</li>
+                        <li>Current President: Carlos Alvarado Quesada </li>
                             <ul>
-                                <li>58th President </li>
-                                <li>Born: November 13, 1953</li>
+                                <li>48th President </li>
+                                <li>Born: January 14, 1980</li>
                             </ul>
-                        <li>Current Population: 127.6 Million</li>
+                        <li>Current Population: 5.084 million</li>
                     </ul>
 
             </div>
             <hr>
-            <div class="row">
+
+            <div class="row" id="feat-1">
                 <div class="col-md-8">
-                    <img height="800px" class="img-circle" src="https://cdn.pixabay.com/photo/2017/09/03/22/25/chichen-2712347_1280.jpg">
+                    <img height="800px" class="img-circle" src="https://i0.wp.com/roads-and-rivers.com/wp-content/uploads/2019/06/IMG_20190521_082759-e1559524973876.jpg?ssl=1">
                 </div>
-                <div class="col-md-4" id="feat-1">
-                    <h3>Chichen Itza</h3>
+                <div class="col-md-4" >
+                    <h3>Manuel Antonio National Park</h3>
                     <p>
-                        Situated in the Yucatan Peninsula, Chichen Itza is the most famous, most visited, and most impressive of the country’s many Mayan sites.
-                        Built between the ninth and twelfth centuries, the once-great city covers a huge area, and many of its buildings, temples and palaces are still in remarkably good condition. 
-                        These feature a wide array of different architectural styles and offer a fascinating insight into the Mayan civilization
+                        Manuel Antonio Park and the surrounding area are known for beautiful beaches, lush forest, and diverse wildlife that inhabits the area.
+                        As soon as you venture into the park, you will have no trouble finding iridescent butterflies and colorful birds flitting about. 
+                        Howler monkeys, squirrel monkeys, sloths, and the hard-to-miss capuchins can be seen from the trail.
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4" id="feat-2">
-                    <h3>Tulum</h3>
+                    <h3>Arenal Volcano</h3>
                     <p>
-                        The Tulum ruins are a walled Maya city perched on a rocky cliff overlooking the Caribbean in the Yucatán Peninsula, Mexico. 
-                        The site is of modest scale and was built during the post Classic period when the Mayan culture was in decline and therefore lacks the elegance of some other famous Mayan ruins. 
-                        The tropical beach backdrop however makes this a unique site which should not be missed.
+                        The Arenal Volcano National Park, found in the rugged Cordillera de Tilarán, is one of the top volcano viewing areas in the country. 
+                        The main attraction here is the Arenal Volcano, a cone-shaped mountain with huge ash columns frequently streaming from the crater.
+                        Arenal was dormant from AD 1500 until a massive eruption on July 29, 1968, which killed 82 people and destroyed two villages. 
+                        Since then, it has seen regular activity and, depending on the day or week, visitors can expect to see anything from a cloud of ash to glowing red lava flowing down the mountain.
+
                     </p>
                 </div>
                 <div class="col-md-8">
-                    <img class="img-circle" src="https://cdn.pixabay.com/photo/2014/10/17/17/37/tulum-492642_1280.jpg">
+                    <img class="img-circle" src="https://volcano.si.edu/gallery/photos/GVP-08129.jpg">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8">
-                    <img class="img-circle" src="https://cdn.pixabay.com/photo/2017/01/27/20/43/mexico-2014178_1280.jpg">
+                    <img class="img-circle" src="https://www.planetware.com/wpimages/2020/03/costa-rica-tourist-attractions-la-paz-waterfall-gardens.jpg">
                 </div>
                 <div class="col-md-4" id="feat-3">
-                    <h3>Mexico City</h3>
+                    <h3>La Paz Waterfall Gardens</h3>
                     <p>
-                        The capital of Mexico, Mexico City is one of the world’s largest cities comprised of many ethnic groups from all over the globe. 
-                        Not only is this vast city the most important political and cultural center in Mexico, but it is also one of the most important financial centers in Latin America. 
-                        While there are no beaches in Mexico City, tourists will discover a great number of exciting things to see and do. 
-                        The Historic Center is teeming in prominent landmarks such as the Plaza de la Constitucion, the Metropolitan Cathedral, the National Palace and the ruins of an ancient Aztec temple. 
-                        With hundreds of museums, art galleries and performing arts centers, Mexico City is one of the world’s leading cities of arts and culture
+                        This privately owned nature park is a must-see attraction in Costa Rica. 
+                        Spread out over 70 acres, the park is home to a wide variety of wildlife including monkeys, butterflies, hummingbirds, and others.
+                        The highlight of the park is La Paz waterfall. 
+                        Rainwater from the cloud forests tumble off a high ledge, dropping 37 meters into a pool below.
                     </p>
                 </div>
 
             </div>
             <hr>
             <div>
-
                 <h3>Fun Facts</h3>
                 <ol>
-                    <li>Mexico City is sinking at a rate of 10 inches per year, resulting in them losing their title as the 7th highest capitol City.</li>
-                    <li>Mexican children recieve Christmas presents on Jan 6, as aappose to December 25.</li>
-                    <li>Mexico City is the oldest City in North America.</li>
-                    <li>There are women only subway cars.</li>
-                    <li>Same-sex marriage and same-sex adoption are both legal for the inhabitants of Mexico.</li>
+                    <li>Costa Rica has one of the highest llife expectancies in the world at 77 years of age.</li>
+                    <li>There are more than 121 volcanic formations in Costa Rica, and seven of them are active.</li>
+                    <li>Costa Rica hosts more than 5% of the world’s biodiversity even though its landmass only takes up .03% of the planet's surface.</li>
+                    <li>Irazu is the tallest volcano in Costa Rica at 11,259 feet.</li>
+                    <li>More than 25% of Costa Rica’s land is dedicated to national parks, reserves and wildlife refuges.</li>
                 </ol>
             </div>
         </div>
         <br>
-    
+        
+
         <footer class="container-fluid text-center">
            <h3>Want us to add a country?</h3>
            <h4><span class="glyphicon glyphicon-envelope"></span><a href="contact.html">Contact us!</a></h4>
